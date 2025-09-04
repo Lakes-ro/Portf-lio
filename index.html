@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Meu Portfólio</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="section inicio-bg">
+            <div class="intro-content">
+                <h1>Olá, sou o Roger</h1>
+                <p id="profissoes"></p> </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-content">
+                <img src="https://via.placeholder.com/200" alt="Sua Foto" class="profile-pic">
+                <p>Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis. Com sólidos conhecimentos em **HTML**, **CSS** e **JavaScript**, estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades. Nos últimos [número] anos, trabalhei em projetos que variam desde sites institucionais até aplicações web interativas.</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Uma breve descrição do projeto. Tecnologias utilizadas: HTML, CSS, JavaScript.</p>
+                    <a href="#" class="btn" target="_blank">Ver Projeto</a>
+                    <a href="#" class="btn-secundario" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+
+                <div class="projeto-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Uma breve descrição do projeto. Tecnologias utilizadas: HTML, CSS, JavaScript.</p>
+                    <a href="#" class="btn" target="_blank">Ver Projeto</a>
+                    <a href="#" class="btn-secundario" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <form id="formulario-contato" class="contato-form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 **[Seu Nome]**. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
